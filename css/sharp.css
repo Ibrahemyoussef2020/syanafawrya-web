@@ -1,0 +1,826 @@
+
+*,body{
+
+	box-sizing: border-box;
+	
+}
+
+
+/**********************************main-header*****************************************/
+ .main-header{
+
+    position: sticky  ;
+    top: 0;
+    left: 0;
+ 	display: flex;
+ 	justify-content: space-around;
+ 	padding: 5px 0 5px 0px; 
+ 	margin-bottom: 0px;
+ 	background: #000;
+ 	z-index: 3;	
+ 	
+
+ }
+
+ .main-header span a{
+ 	flex: 1;
+ 	
+ 	display: block;
+ 	color: #f00;
+ 	text-decoration: none;
+ 	
+ }
+
+ .main-header a .fas,.far{
+    
+    font-size: 19px;
+    color: #fff;
+ 	transform:rotate(20deg); 
+
+ }
+ .far {
+    font-size: 22px;
+    transform:rotate(0deg);
+    margin-right: 5px;
+ }
+
+
+/********************************fixed bar**************************************/
+
+.fixed-bar{
+
+    position: fixed;
+    top: 10px;
+    left: 0;
+    width: 80%;
+    min-width: 150px;
+    height: 650px;
+    background: yellow;
+    z-index: 2;
+    transition: all .5s ease-in-out;
+    transform: translate(-50%,0)scale(0,0);
+
+}
+
+/****************************************sticky*************************************************/
+
+.sticky-section  {
+    
+     position: sticky  ;
+     top: 35px;
+     height: 80px;
+     background: #fff;
+     padding-right : 60px;
+     margin-bottom: 10px;
+     direction: ltr;
+     z-index: 2
+
+
+}
+
+.sticky-section > div{
+
+	display: flex;
+	direction: ltr;
+	 justify-content: space-between;
+	 height: 80px;
+	 position: sticky  !important;
+
+}
+
+
+
+.sticky-section > div > img{
+
+	flex: 1;
+	display: block;
+	height: 65px;
+	max-width: 240px;
+	padding: 5px 0  0 20px;
+	
+	
+
+
+}
+
+.sticky-section   > div > form{
+  
+  flex: 1;
+  max-width: 350px; 
+  display: flex;
+  align-self:center;
+  justify-content: flex-end;
+  justify-content: space-between;
+  direction: ltr;
+  
+
+
+
+}
+
+.sticky-section div form  input{
+
+	display: block;
+	background: transparent;
+	border: none;
+	padding: 0 10px 0 10px;
+}
+
+  .sticky-section div form  .checkbox{
+
+  width: 30px;
+  height: 30px;
+  background: green !important;
+  display: none;
+  
+}
+
+
+
+/*****************************bootstrab carousel****************************************/
+
+.carousel-control-next, .carousel-control-prev{
+
+   background: transparent !important;
+   
+}
+
+.carousel-control-prev-icon{
+
+	display: none !important;
+}
+
+
+/*****************************service*********************************************************/
+article.service {
+
+	margin-top: 20px;
+	text-align: center;
+}
+
+article.service h2,h3{
+
+	text-align: center;
+}
+
+
+article.service p h5{
+
+	display: none !important;
+}
+
+article.service p {
+
+	width: 97%;
+	margin: 10px auto;
+	font-size: 17px;
+	font-weight: 900;
+}
+
+/**********************************form sign up*************************************************/
+
+.form-section{
+
+  height: 550px;
+  width: 100%;
+  overflow: hidden;
+  margin: 60px 0;
+  position: relative;
+
+}
+
+.form-section img{
+
+
+	width: 100%;
+	height: 100%;
+	display: block;
+	z-index: 0;
+	position: absolute;
+}
+
+
+form.sign-up{
+     display: flex;
+     flex-direction:column; 
+     align-content: space-between ;
+     max-width: 350px;
+     height: 350px;
+     padding: 10px 10px 20px 10px;
+     margin: 0 auto;
+     background:  rgba(2,2,2,.2)   /*#00aff2*/;
+     position: absolute;
+     top: 21%;
+     left: 35%;
+     opacity: .7;
+     z-index: 1;
+     text-align: right;
+     direction: rtl;
+    
+}
+
+form.sign-up input, form.sign-up select {
+
+	display: block;
+	height: 30px;
+	margin: 15px ;
+	
+}
+
+
+
+form.sign-up input[name|=title]	{
+
+	text-align: center;
+	font-size:19px;
+	font-weight: 900;
+	border: none;
+	color: red;
+
+
+}
+
+/********************************************************************************************/
+.cods{
+
+	padding:10px 0 10px 0;
+	margin: 40px 0 20px 0;
+	direction: rtl;
+	text-align: center;
+	background: #F5F5F5;
+}
+
+.cods    h5{
+	text-align: center;
+}
+
+
+.cods ul {
+	list-style: none;
+}
+
+
+
+.cods ul li {
+
+	padding: 10px 0 10px 0;
+}
+
+
+
+/*************************************banner************************************************/
+ 
+.banner-container{
+
+	display: flex;
+	width: 100%;
+	margin: 70px auto;
+	
+	
+}
+
+ .banner{
+
+ 	
+ 	height: 200px  !important;
+ 	flex: 1
+ }
+
+
+ .banner2{
+
+ 	
+ 	height: 200px  !important;
+ 	flex: 1;
+ 	
+ 	
+ 	
+ }
+
+/*********************************.images-articles*********************************************/
+
+
+
+
+.images-articles > h2{
+
+   
+   padding: 20px;
+   text-align: center;
+  
+}
+
+.admiral{
+
+	display: flex;
+	justify-content: space-between;
+	width: 95%;
+	background: #F5F5F5;
+	text-align: right;
+
+
+
+
+}
+
+.admiral article  h3{
+  
+   
+   padding: 10px;
+
+}
+
+.admiral img{
+
+	max-width: 250px;
+	max-height: 250px;
+    
+}
+
+.admiral article{
+
+	align-self: center;
+	font-weight: 900;
+	font-size: 15px;
+	direction: rtl;
+
+}
+
+
+
+/*****************************/
+
+.team{
+
+	display: flex;
+	justify-content: space-between;
+	width: 95%;
+	text-align: right;
+	margin: 20px 0 0 0;
+	background: #F5F5F5;
+	
+
+}
+
+.team img {
+
+	max-width: 250px;
+	max-height: 270px;
+	padding-right:  10px;
+	background: #F5F5F5;
+
+}
+
+.team  article{
+
+	align-self: center;
+	font-weight: 900;
+	font-size: 15px;
+	direction: rtl;
+	width: 90%;
+	background: #F5F5F5;
+	padding: 15px;
+}
+
+.team  article  .summry{
+
+	background: #F5F5F5
+}
+
+.team  article details{
+
+	width: 100%
+}
+
+.cities{
+
+	display: block;
+	background: #F5F5F5;
+	direction: rtl;
+	text-align: right;
+	width: 95%;
+	margin-top: -7px;
+}
+
+.cities summary{
+
+	display: inline-block;
+
+}
+
+/********customers service**************/
+
+.customers-service{
+
+	display: flex;
+	justify-content: space-between;
+	width: 95%;
+	background: #F5F5F5;
+	text-align: right;
+    margin-top: 20px;
+
+
+
+
+}
+
+.customers-service article  h3{
+  
+   
+   padding: 10px;
+
+}
+
+.customers-service img{
+
+	max-width: 250px;
+	max-height: 250px;
+    
+}
+
+.customers-service article{
+
+	align-self: center;
+	font-weight: 900;
+	font-size: 15px;
+	direction: rtl;
+
+}
+
+
+
+
+/*********************************whats*******************************************/
+
+.fixed-icon{
+    
+    position: fixed;
+    left: 60px;
+    bottom: 65px;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background: #00aff2;
+	z-index: 5
+
+}
+
+.fixed-icon .fas{
+
+	font-size: 35px;
+	font-weight: 900;
+	position: relative;
+	top:17px;
+	left: 20px;
+	color: #fff;
+	animation-name: call;
+	animation-duration: .3s;
+	animation-iteration-count: infinite;
+}
+
+
+
+
+.fixed-icon-trans{
+    
+    position: fixed;
+    left: 50px;
+    bottom: 55px;
+	width: 90px;
+	height: 90px;
+	border: 15px solid #00aff2;
+	border-radius: 50%;
+	background: transparent;
+	transition: all 1.5s ease-in-out;
+	transform:scale(.5,.5);
+	animation-name: voice;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	opacity: .3;
+	z-index: 7;
+
+
+
+}
+
+
+
+@keyframes voice {
+
+
+	0% {
+    transform: scale(1.1,1.1);
+
+    }
+
+
+50% {
+
+    transform: scale(1.3,1.3);
+
+    }
+
+
+70%  {
+
+    transform: scale(1.2,1.2);
+  }
+
+100% {
+    
+    transform: scale(1,1);
+}
+
+}
+
+
+
+@keyframes call {
+
+	0%{
+       
+       transform:rotate(20deg);
+
+	}
+
+	
+
+  40%{
+
+  	  transform:rotate(10deg);
+
+  }	
+
+   60%{
+
+  	  transform:rotate(0deg);
+
+  }	
+
+   70%{
+
+  	  transform:rotate(0deg);
+  }
+
+    80%{
+
+  	  transform:rotate(0deg);
+  }
+
+    90%{
+
+  	  transform:rotate(0deg);
+  }
+
+    95%{
+
+  	  transform:rotate(0deg);
+  }
+
+    100%{
+
+  	  transform:rotate(25deg);
+  }
+}
+/***********************************whats***************************************/
+.fixed-whats{
+ 
+ position: fixed;
+ top:50%;
+ left: 0;
+ min-width: 70px;
+ padding: 5px;
+ border-top-right-radius:50%;
+ border-bottom-right-radius:50%;
+ background: #000;
+ z-index: 2;
+}
+
+.fixed-whats .fab{
+    
+    display: block;
+    text-align: right;
+    font-size: 55px;
+    font-weight: 900;
+    color: #080
+
+}
+/******************************slid-fix***************************************************/
+
+
+/*******************************prefooter*****************************************/
+
+.prefooter{
+
+	
+	
+	background:#333;
+	
+	margin-top: 70px;
+	overflow: hidden;
+	
+
+}
+
+.over-flow{
+
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	background:rgba(2,2,2,.2);
+	z-index: 1;
+   flex-direction: colum;
+   justify-content:  center !important;
+   text-align: center;
+   border-top: 15px solid rgba(2,2,2,.1);
+
+}
+
+
+.over-flow  aside {
+    
+    flex: 1;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+
+
+
+.over-flow > aside > div {
+	flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    text-align: center;
+    height: 220px;
+    min-width: 200px;
+    max-width: 300px;
+	opacity:.8 ;	
+	direction: ltr;
+	border-right: 1px dotted #ccc;
+
+
+	
+}
+
+.over-flow > aside >  div > *{
+
+    flex: 1;
+    font-weight: 900;
+	
+	
+}
+
+.over-flow > aside >  div > h2{
+
+	color: #fff;
+	font-size:25px ;
+}
+
+.over-flow >  aside > div > h3{
+
+	color: #fff
+}
+
+.over-flow >  aside > div > h4 , .over-flow > aside > div > h5 {
+
+	color: gray;
+	font-weight: 900;
+	font-size: ;
+}
+
+
+.twasal{
+
+	margin-bottom:  30px
+}
+
+ .fas {
+
+	transform: rotate(20deg);
+	color:#fff;
+}
+
+
+.over-flow aside > div form {
+
+	position: relative;
+}
+
+
+.over-flow aside > div form::after {
+    
+    content: "\f304";
+    display: block;
+    position: absolute;
+    font-family: "Font Awesome 5 Free";
+    font-size: 15px;
+    font-weight: 900;	
+	top:35%;
+	right:  1%;
+	height: 80px;
+	width: 80px;
+	color: gray;
+	z-index: 1;
+
+
+	
+	
+
+
+}
+
+
+.over-flow  aside > div form input[type=email]{
+
+	position: absolute;
+	z-index: 1;
+	width: 70%;
+	padding: 10px;
+	padding-right: 25px;
+	left: 20%;
+	direction: rtl;
+	text-align: left;
+	background: rgba(2,2,2,.2);
+	color: #fff;
+	border:1px solid rgba(2,2,2,.2); 
+	border: 1px solid initial;
+	
+	
+	
+
+	
+}
+
+.over-flow div form input[type=submit]{
+
+	position: absolute;
+	top:10px;
+	right: 30px;
+	margin-left:0 ;
+    font-family: "FontAwesome 5 Free";
+    font-weight: 900;
+    z-index: 2;
+    background: transparent;
+    border: none;
+
+	
+}
+
+
+
+
+/*******************************************************************************/
+
+
+
+
+
+
+
+
+
+/**    content: "\f040";***/
+
+/*********************************footer***********************************/
+
+.main-footer{
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    height: 30px;
+    padding: 5px;
+	background: #333;
+	opacity: 1
+}
+
+
+.main-footer .fab,.main-footer .far{
+
+	font-size: 20px;
+	font-weight: 900;
+	color: #29487D;
+	color: #00acee;
+	margin-right: 40px;
+
+}
+
+.main-footer .far{color: #1E90FF};
+.main-footer .fab:first-of-type{color: #29487D;}
+.main-footer .fab:last-of-type{color: #00acee;}
+
+/************************copy******************************************************/
+
+.copy{
+
+    height: 30px;
+    padding: 5px;
+	background: #777;
+	text-align: center;
+}
+
+
+/***************************************************************************/

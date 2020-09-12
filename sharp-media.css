@@ -1,0 +1,469 @@
+ 
+
+ /* ****************************main-header  and section-stiky***************************** 
+
+               look at 605 , 515 , 442 , 350 , 190
+
+ 
+ ***************************pre-footer*********************************************
+
+ 
+                   look at  in 380 , 230 , 190
+          
+  ****************************form.sign up************************************************ 
+ 
+                   look at  in 605 ,420, 380 ,330, 300
+          
+  *******************************images-article**************************************************
+
+                          look at 530, 230 , 605 , 195
+
+ **************************************code************************************************** 
+                              
+                                  look at   230
+
+ ************************************banner******************************************** 
+                 
+                                  670, 230 , 330
+
+   ********************************************************************************** */   
+
+    @media only screen and (max-width: 670px){
+
+
+       .banner-container .banner2 {
+   
+         display: none ;
+
+    }
+
+ 
+ }
+
+/* ********************************************************************* */             
+
+  @media only screen and (max-width: 605px){
+
+   
+   .sticky-section   > div {
+
+   	justify-content: flex-start;
+   }
+
+   .sticky-section > div > img {
+      height: 50px;
+	  max-width: 150px;
+
+      }
+
+    .sticky-section   > div > form{
+        
+        flex: 2; 
+    	max-width: 220px;
+
+
+
+      }
+
+      form.sign-up{
+
+      	left: 25%;
+      }
+
+      .admiral,.team,.customers-service {
+        
+        width: 100%;
+
+      }
+
+      .admiral article,.team article, .customers-service article {
+
+                 
+                 font-size: 14px;
+         }
+ 
+  } 
+
+  /* ***************************************************************************** */
+
+  @media only screen and (max-width: 530px){
+
+     
+
+
+    .admiral,.team,.customers-service {
+        
+        width: 100%;
+        flex-direction: column;
+        background: #fff;
+
+      }
+
+    .admiral article,.team article, ,.customers-service article {
+
+                 font-weight: normal;
+                 font-size: 13px;
+         }
+
+         .admiral img ,.team img, .customers-service img {
+
+            width: 100% !important;
+            max-width: 450px;
+            margin: 0 auto;
+
+         } 
+
+          
+            
+}
+
+/*******************************************************************/
+
+
+ @media only screen and (max-width: 515px){
+
+      .sticky-section   > div {
+       
+       justify-content: space-between;
+
+      }
+      
+      .sticky-section   > div form {
+
+      	justify-content: flex-end;
+      	margin-left:15px;
+      }
+
+  	  .sticky-section   > div > form > *:not(.label-checkbox){
+
+         display: none;
+
+  	   }
+
+     .sticky-section div form .label-checkbox{
+
+	     display: block;
+       }
+
+  }
+
+/* *************************************************************** */
+   @media only screen and (max-width: 500px){
+
+    .form-section{
+
+    	justify-content: flex-start;
+    }
+     
+     form.sign-up{
+
+     	 margin: -55px  0 0 ;
+     	 left: 70px;
+     }
+
+ }
+ 
+ /* *********************************************************************** */
+
+@media only screen and (max-width: 442px){
+
+  .sticky-section  {
+
+    	top: 54px
+    }
+
+}
+
+/********************************************************************************/
+
+ @media only screen and (max-width: 420px){
+
+ 	form.sign-up{
+
+     	 margin: -55px  0 0 ;
+     	 left: 50px;
+     }
+ }
+
+ /* ********************************************************************* */
+
+
+ @media only screen and (max-width: 380px){
+
+	form.sign-up{
+
+     	 margin: -55px  0 0 ;
+     	 left: 10px;
+     }                              
+
+     .over-flow aside{
+     	flex-direction: column;
+     }
+
+     .over-flow >  aside > div > h4 , .over-flow > aside > div > h5 {
+
+	 
+
+	 font-size: 25px;
+    }
+
+    .over-flow aside > div form::after {
+    	padding-top: 10px;
+    }
+}
+
+/*********************************************************************************/
+
+
+
+ @media only screen and (max-width: 350px) {
+
+
+    .main-header{
+
+    	display: block;
+    	padding-bottom: 5px;
+    }
+
+     
+
+    .sticky-section  {
+
+    	top: 100px
+    }
+
+ }
+
+
+/* *********************************************************************************** */
+@media only screen and (max-width: 330px){
+
+	form.sign-up input, form.sign-up select {
+
+	display: block;
+	height: 30px;
+	margin: 15px 0 15px 0;
+	}
+
+	.banner{
+
+ 	height: 100px  !important;	
+   }
+
+}
+
+/* ************************************************************************************* */
+
+@media only screen and (max-width: 300px){
+    
+
+	.form-section img{
+		display: none;
+	}
+    form.sign-up{
+
+     max-width: 300px;
+     height: 390px;
+     padding: 0px 5px 0px 5px;
+     margin: 0 auto;
+     background:#00aff2 ;
+     opacity: .7;
+     max-width: 90%;
+
+   }
+   li{
+   	padding: 0 !important;
+   	margin: 0 !important;
+   }
+
+   .copy{
+
+   	  font-size: 14px;
+   }
+}
+
+/******************************************************************/
+ @media only screen and (max-width: 260px){
+
+   .copy{
+
+   	  font-size: 12px;
+   	  padding: 5px 0px 2px 0; 
+   	  
+   }
+ }  
+/* ****************************************************************** */
+
+
+@media only screen and (max-width: 230px){
+
+    .cods{
+    	width: 100%;
+    	text-align: right;
+    	padding: 0;
+    	margin: 0;
+
+    }
+     
+    .cods ul li {
+
+	   padding: 0px 0 0px 0;
+	   margin: 0;
+
+    }
+
+
+    .admiral article,.team article, .customers-service article {
+
+                 font-weight: normal;
+                 font-size: 12px;
+                 padding: 0;
+         }
+
+        .cities{
+                 
+                 width: 100%;
+        	     font-weight: normal;
+                 font-size: 12px;
+                 padding: 0;
+        }
+
+
+        .banner{
+
+ 	          height: 65px  !important;	
+        }
+
+
+         .over-flow >  aside > div > h4 , .over-flow > aside > div > h5 {
+
+	 
+
+	       font-size: 15px;
+        }
+
+        .over-flow aside > div form::after {
+    	padding-top: 2px;
+    }
+
+     .over-flow  aside > div form input[type=email]{
+
+     	margin-right: 15px !important;
+     }
+ 
+
+
+
+
+}
+
+/* ********************************************************************* */
+
+@media only screen and (max-width: 195px) {
+
+ 	.main-header span a{
+ 		font-weight: 900;
+ 	}
+ 	.main-header span a .far {
+ 		display: none;
+ 	}
+
+ 	.main-header span:nth-of-type(2) a{
+     	margin-left: 0px;
+     }
+
+      .sticky-section  {
+
+    	top: 95px;
+    }
+    
+    .sticky-section   > div {
+
+   	  flex-direction: column;
+   }
+
+    .sticky-section  img {
+
+
+    }
+
+    article.service p {
+
+	width: 97%;
+	margin: 10px auto;
+	font-size: 14px;
+	font-weight: 500;
+
+    }
+
+    .fixed-bar{
+
+    	padding-right: 15px;
+    }
+
+    .over-flow  aside > div form input[type=email]{
+
+	
+	
+	left: 0 !important;
+
+   }
+
+
+   .images-articles > h2 {
+    padding: 5px;
+    text-align: center;
+
+    }
+
+       .over-flow aside > div form::after {
+    	right:  5%;
+    }
+
+
+      .over-flow ,  .over-flow >  aside ,   .over-flow > aside > div  {
+
+	 
+
+	   justify-content: flex-start;
+	   padding: 0  0 0 3px;
+	   text-align: left;
+    }
+
+      .over-flow >  aside > div > h2 , .over-flow > aside > div > h3 {
+
+	 
+
+	 font-size: 25px;
+	 
+    }
+    
+    .over-flow > aside > div > h3 {
+     
+     text-align: left !important;
+      font-size: 20px;
+      margin-right: 10px;
+
+    } 
+
+     .over-flow >  aside > div > h4 , .over-flow > aside > div > h5:not(:nth-of-type(2)) {
+
+       padding-left: 5px;
+
+     }
+
+
+     .main-footer .fab,.main-footer .far{
+
+	font-size: 20px;
+	font-weight: 900;
+	margin-right: 15px;
+
+     }
+
+
+
+ }
+ /* ************************************************************************************* */
+
+
