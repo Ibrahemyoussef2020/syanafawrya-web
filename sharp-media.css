@@ -22,25 +22,8 @@
                               
                                   look at   230
 
- ************************************banner******************************************** 
-                 
-                                  670, 230 , 330
-
-   ********************************************************************************** */   
-
-    @media only screen and (max-width: 670px){
-
-
-       .banner-container .banner2 {
    
-         display: none ;
-
-    }
-
- 
- }
-
-/* ********************************************************************* */             
+ ******************************************************************** */             
 
   @media only screen and (max-width: 605px){
 
@@ -152,22 +135,14 @@
     	justify-content: flex-start;
     }
      
-    
+    .slide{
+      margin-top:130px;
+    }
 
  }
  
  /* *********************************************************************** */
 
-@media only screen and (max-width: 400px){
-
-  .main-header{
-
-    flex-direction: column;
-  }
-
-}
-
-/********************************************************************************/
 
  @media only screen and (max-width: 420px){
 
@@ -179,6 +154,22 @@
  }
 
  /* ********************************************************************* */
+
+ 
+@media only screen and (max-width: 400px){
+
+  .main-header{
+
+    flex-direction: column;
+  }
+
+  .slide{
+    margin-top:180px;
+  }
+
+}
+
+/********************************************************************************/
 
 
  @media only screen and (max-width: 380px){
@@ -238,11 +229,6 @@
 	margin: 15px 0 15px 0;
 	}
 
-	.banner{
-
- 	height: 100px  !important;	
-   }
-
 }
 
 /* ************************************************************************************* */
@@ -265,8 +251,8 @@
 
    }
    li{
-   	padding: 0 !important;
-   	margin: 0 !important;
+   	padding: 0 ;
+   	margin: 0 ;
    }
 
    .copy{
@@ -290,7 +276,9 @@
 
 @media only screen and (max-width: 230px){
 
-
+  .sticky-section{
+    height: 70px !important;
+  }
 
     .sticky-section div{
 
@@ -313,6 +301,7 @@
      align-self: flex-end;
      padding-bottom: 6px;
      justify-content: flex-end !important;
+     height: 40px;
     }
 
     
@@ -371,13 +360,6 @@
                  font-size: 12px;
                  padding: 0;
         }
-
-
-        .banner{
-
- 	          height: 65px  !important;	
-        }
-
 
          .over-flow >  aside > div > h4 , .over-flow > aside > div > h5 {
 
