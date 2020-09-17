@@ -99,7 +99,7 @@
 
       }
 
-    .admiral article,.team article, ,.customers-service article {
+    .admiral article,.team article, .customers-service article {
 
                  font-weight: normal;
                  font-size: 13px;
@@ -396,9 +396,9 @@
 
     }
 
-    .fixed-bar{
+    .fixed-bar form{
 
-    	padding-right: 15px;
+    	padding-right: 17px;
     }
 
     .over-flow  aside > div form input[type=email]{
@@ -455,9 +455,9 @@
 
      .main-footer .fab,.main-footer .far{
 
-	font-size: 20px;
-	font-weight: 900;
-	margin-right: 15px;
+	   font-size: 20px;
+	   font-weight: 900;
+	    margin-right: 15px;
 
      }
 

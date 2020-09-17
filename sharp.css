@@ -64,18 +64,41 @@ body{
     top: 10px;
     left: 0;
     width: 80%;
-    min-width: 150px;
+    min-width: 145px;
     height: 750px;
     padding-top: 26px;
-    background: rgba(2,2,2,.5);
+    background: rgba(2,2,2,.7);
     transition: all .5s ease-in-out; 
     transform: translate(-50%,0)scale(0,0); 
-    display: flex; 
-    justify-content: flex-end;
-    align-content: flex-end;
     z-index: 4; 
 
 
+}
+
+.fixed-bar  form {
+
+	display: block;
+	text-align: right;
+	margin-bottom: 50px;
+}
+
+.fixed-bar ul{
+	
+	display: block;
+	text-align: right;
+	direction: rtl;
+
+}
+
+.fixed-bar ul li{
+
+	color: #fff;
+}
+.fixed-bar ul li a{
+	display: block;
+	text-decoration: none;
+	margin-bottom: 50px !important;
+	color: #fff;
 }
 
 .close{
@@ -197,15 +220,26 @@ input.check-window{
 }
 
 .sticky-section .label-window {
-     position: relative;
-	 margin-top: 200px;
-	 padding: 5px;
+	 position: relative;
+	 min-width: 150px;
+	 top:120px;
+	 height: 200px;
+	 padding: 0 5px 0 5px;
 	 background: #fff;
-	 font-size: 20px;
+	 font-size: 16px;
 	 font-weight: 900;
+	 line-height: 1.2rem;
+	 text-align: right;
 	 visibility: hidden;
 	 
 
+}
+
+.sticky-section .label-window ul li a{
+
+	text-decoration: none;
+	display: block;
+	margin-bottom: 20px !important;
 }
 
 .sticky-section .label-window ul {
