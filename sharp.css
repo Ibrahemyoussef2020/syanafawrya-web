@@ -431,7 +431,7 @@ form.sign-up input[name|=title]	{
   
    
    padding: 10px;
-  
+   margin-bottom: 2px
 
 }
 
@@ -460,6 +460,7 @@ form.sign-up input[name|=title]	{
 .admiral article ul  {
 	padding-right: 10px ;
 	list-style-position: inside;
+	list-style: none;
 	
 	
 	
@@ -498,7 +499,9 @@ form.sign-up input[name|=title]	{
 	line-height: 1.2rem;
 	background: #F5F5F5;
 	padding-left: 10px;
+
 }
+
 
 .team  article  .summry{
 
