@@ -331,15 +331,7 @@ article.service p {
 
 }
 
-.form-section img{
 
-
-	width: 100%;
-	height: 100%;
-	display: block;
-	z-index: 0;
-	position: absolute;
-}
 
 
 form.sign-up{
@@ -347,16 +339,15 @@ form.sign-up{
      flex-direction:column; 
      align-content: space-between ;
      max-width: 350px;
-     height: 390px;
+     height: 410px;
      padding: 10px 10px 20px 10px;
      margin: 0 auto;
-     background:  rgba(2,2,2,.2)   /*#00aff2*/;
-     position: absolute; 
-     opacity: .7;
+     background: #00aff2;
+     opacity: 1;
      z-index: 1;
      text-align: right;
      direction: rtl;
-     margin: -55px  auto 0 ;
+    
 
 
     
@@ -365,7 +356,7 @@ form.sign-up{
 form.sign-up input, form.sign-up select {
 
 	display: block;
-	height: 30px;
+	height: 30px !important;
 	margin: 15px ;
 	
 }
@@ -431,7 +422,7 @@ form.sign-up input[name|=title]	{
   
    
    padding: 10px;
-   margin-bottom: 2px
+  
 
 }
 
@@ -483,6 +474,7 @@ form.sign-up input[name|=title]	{
 }
 
 .team img {
+	
 
 	max-width: 250px;
 	max-height: 250px;
@@ -999,3 +991,8 @@ form.sign-up input[name|=title]	{
 
 
 /***************************************************************************/
+
+
+.sign-up select , .sign-up input {
+	padding: 2px !important
+}
