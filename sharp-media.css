@@ -81,7 +81,7 @@
 
     .admiral article,.team article, .customers-service article {
 
-                 font-weight: normal;
+      
                  font-size: 13px;
          }
 
@@ -93,7 +93,17 @@
 
          } 
 
+         .form-section img {
+
+          display: none;
+         }
           
+
+          .form-section form {
+
+            background: #00aff2;
+            position: initial !important;
+          }
             
 }
 
@@ -132,28 +142,16 @@
 
     .form-section{
 
-    	justify-content: flex-start;
+    	justify-content: center;
     }
      
     .slide{
-      margin-top:130px;
+      margin-top:140px;
     }
 
  }
  
  /* *********************************************************************** */
-
-
- @media only screen and (max-width: 420px){
-
- 	form.sign-up{
-
-     	 margin: -55px  0 0 ;
-     	 left: 50px;
-     }
- }
-
- /* ********************************************************************* */
 
  
 @media only screen and (max-width: 400px){
@@ -164,7 +162,7 @@
   }
 
   .slide{
-    margin-top:180px;
+    margin-top:185px;
   }
 
 }
@@ -174,11 +172,7 @@
 
  @media only screen and (max-width: 380px){
 
-	form.sign-up{
-
-     	 margin: -55px  0 0 ;
-     	 left: 10px;
-     }                              
+                              
 
      .over-flow aside{
      	flex-direction: column;
@@ -192,7 +186,7 @@
     }
 
     .over-flow aside > div form::after {
-    	padding-top: 10px;
+    	padding-top: 13px;
     }
 }
 
@@ -232,7 +226,6 @@
 }
 
 /* ************************************************************************************* */
-
 @media only screen and (max-width: 300px){
     
 
@@ -250,6 +243,7 @@
      max-width: 90%;
 
    }
+
    li{
    	padding: 0 ;
    	margin: 0 ;
@@ -283,72 +277,54 @@
     .sticky-section div{
 
       justify-content: space-between;
+      flex-direction: column;
     }
 
     .sticky-section div img {
-
-     
-
-       
+ 
         align-self: center;
-      
+           
       
     }
 
     .sticky-section div form {
 
      display: flex;
+     width: 100%;
      align-self: flex-end;
      padding-bottom: 6px;
-     justify-content: flex-end !important;
+     justify-content: center !important;
      height: 40px;
     }
+  
+    .sticky-section div form *{
 
+      display: block;
+    }
     
     .cods{
     	width: 100%;
     	text-align: right;
     	padding: 0;
-    	margin: 0;
-
+      margin: 0;
+      
     }
-     
+
     .cods ul li {
 
-	   padding: 0px 0 0px 0;
-	   margin: 0;
+      padding: 0px 0 0px 0;
+      margin: 0;
+ 
+     }
 
-    }
-/***************************************************************/
-    @media only screen and (max-width: 230px){
+    .cods ul li code{
 
-      
-      .sticky-section{
+      font-size: 13px !important;
+    }    
 
-        height: 50px;
-      }
 
-      .sticky-section div {
-
-        flex-direction: column
-
-      }
-      .sticky-section div form{
-        
-        width: 100%;
-        justify-content: center !important;
-        
-      }
-
-      .sticky-section div form *{
-
-        display: block;
-      }
-
-    }  
     .admiral article,.team article, .customers-service article {
-
-                 font-weight: normal;
+      
                  font-size: 12px;
                  padding: 0;
          }
@@ -356,7 +332,6 @@
         .cities{
                  
                  width: 100%;
-        	     font-weight: normal;
                  font-size: 12px;
                  padding: 0;
         }
@@ -369,7 +344,7 @@
         }
 
         .over-flow aside > div form::after {
-    	padding-top: 2px;
+    	padding-top: 3px;
     }
 
      .over-flow  aside > div form input[type=email]{
@@ -389,9 +364,14 @@
       display: none;
     }
 
+    .fixed-icon .fas{
 
+          font-size: 32px
+    }
 
-}
+    
+
+  }
 
 /* ********************************************************************* */
 
@@ -402,7 +382,7 @@
 
     margin-left: 0;
   }
- 	.main-header span a{
+ 	.main-header span a {
      font-weight: 900;
      margin-left: 0px;
  	}
@@ -416,17 +396,13 @@
      	margin-left: 0px;
      }
 
-   
-    
 
-   
+     article.service p {
 
-    article.service p {
-
-	width: 97%;
-	margin: 10px auto;
-	font-size: 14px;
-	font-weight: 500;
+   	width: 97%;
+	  margin: 10px auto;
+	  font-size: 14px;
+	  font-weight: 300 !important ;
 
     }
 
@@ -436,11 +412,8 @@
     }
 
     .over-flow  aside > div form input[type=email]{
-
 	
-	
-	left: 0 !important;
-
+	      left: 0 !important;
    }
 
 
@@ -451,7 +424,7 @@
     }
 
        .over-flow aside > div form::after {
-    	right:  5%;
+    	      right:  5%;
     }
 
 
@@ -499,7 +472,7 @@
 
      }
 
-
+      
 
  }
  /* ************************************************************************************* */
