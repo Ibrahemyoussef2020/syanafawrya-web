@@ -180,14 +180,11 @@
 
      .over-flow >  aside > div > h4 , .over-flow > aside > div > h5 {
 
-	 
 
 	 font-size: 25px;
     }
 
-    .over-flow aside > div form::after {
-    	padding-top: 13px;
-    }
+  
 }
 
 /*********************************************************************************/
@@ -343,15 +340,6 @@
 	       font-size: 15px;
         }
 
-        .over-flow aside > div form::after {
-    	padding-top: 3px;
-    }
-
-     .over-flow  aside > div form input[type=email]{
-
-     	margin-right: 15px !important;
-     }
-
      .over-flow >  aside > div > h2 , .over-flow > aside > div > h3 {
 
 	 
@@ -411,10 +399,7 @@
     	padding-right: 17px;
     }
 
-    .over-flow  aside > div form input[type=email]{
-	
-	      left: 0 !important;
-   }
+ 
 
 
    .images-articles > h2 {
@@ -423,9 +408,7 @@
 
     }
 
-       .over-flow aside > div form::after {
-    	      right:  5%;
-    }
+ 
 
 
       .over-flow ,  .over-flow >  aside ,   .over-flow > aside > div  {
