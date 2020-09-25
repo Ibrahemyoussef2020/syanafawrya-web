@@ -340,7 +340,7 @@ form.sign-up{
      align-content: space-between ;
      max-width: 350px;
      height: 420px;
-     padding: 10px 10px 20px 10px;
+     padding: 10px 10px 25px 10px;
      margin: 0 auto;
      background: #00aff2;
      opacity: 1;
@@ -356,7 +356,7 @@ form.sign-up{
 form.sign-up input, form.sign-up select {
 
 	display: block;
-	height: 30px !important;
+	height: 33px !important;
 	margin: 15px ;
 	
 }
@@ -412,11 +412,15 @@ form.sign-up input[name|=title]	{
 .admiral article {
 	
 	flex: 1;
-	text-align: center;
-	text-decoration: rtl;
+	direction: rtl;
+	padding-bottom: 7px;
 
 }
+.admiral article ul li {
 
+	text-align: right !important;
+
+}
 
 .admiral article  h3{
   
@@ -576,7 +580,7 @@ form.sign-up input[name|=title]	{
 	background: #F5F5F5;
 }
 
-.cods  h5 {
+.cods  h4 {
 	text-align: center;
 }
 
@@ -809,7 +813,7 @@ form.sign-up input[name|=title]	{
     flex-direction: column;
     align-content: space-between;
     text-align: center;
-    height: 220px;
+    min-height: 220px;
     min-width: 200px;
     max-width: 300px;
 	opacity:.8 ;	
@@ -826,7 +830,7 @@ form.sign-up input[name|=title]	{
 
 .over-flow > aside >  div > *{
 
-    flex: 1;
+  
     font-weight: 900;
 
     
@@ -850,10 +854,12 @@ form.sign-up input[name|=title]	{
 
 	color: gray;
 	font-weight: 900;
-	font-size: ;
 	display: block;
 	
 }
+
+.over-flow > aside > div > h5.last-num{margin-bottom: 7px}
+
 
 
 .twasal{
@@ -863,8 +869,9 @@ form.sign-up input[name|=title]	{
 
  .fas {
 
-	transform: rotate(20deg);
+	transform: rotateX(20deg);
 	color:#fff;
+
 }
 
 
@@ -901,8 +908,8 @@ form.sign-up input[name|=title]	{
 
 .copy{
 
-    min-height: 30px;
-    padding: 5px;
+	min-height: 30px;
+	margin-bottom: 0px !important;
 	background: #777;
 	text-align: center;
 	
