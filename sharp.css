@@ -323,7 +323,6 @@ article.service p {
   width: 100%;
   overflow: hidden;
   margin: 60px 0;
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -339,7 +338,7 @@ form.sign-up{
      flex-direction:column; 
      align-content: space-between ;
      max-width: 350px;
-     height: 420px;
+     height: 430px;
      padding: 10px 10px 25px 10px;
      margin: 0 auto;
      background: #00aff2;
@@ -357,7 +356,7 @@ form.sign-up input, form.sign-up select {
 
 	display: block;
 	height: 33px !important;
-	margin: 15px ;
+	margin: 12px ;
 	
 }
 
