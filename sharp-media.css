@@ -38,7 +38,7 @@
 
     .sticky-section   > div > form{
         
-        flex: 2; 
+      flex: 2; 
     	max-width: 220px;
 
 
@@ -162,6 +162,11 @@
     margin-top:185px;
   }
 
+
+   .form-section{
+
+      background: none
+   }
 }
 
 /********************************************************************************/
