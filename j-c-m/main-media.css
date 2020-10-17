@@ -23,7 +23,17 @@
                                   look at   230
 
    
- ******************************************************************** */             
+ ******************************************************************** */ 
+ 
+ @media only screen and (max-width: 770px){
+
+  .over-flow{
+
+    flex-direction: column;
+  }
+
+ }
+
 
   @media only screen and (max-width: 605px){
 

@@ -7,8 +7,8 @@
 	
 	
 	
+	
 }
-
 
 
 /**********************************main-header*****************************************/
@@ -31,7 +31,7 @@
 	width: 100%;
  	display: flex;
     justify-content: space-between;
- 	padding: 5px 0 5px 5px; 
+ 	padding: 5px 10px 5px 5px; 
  	margin-bottom: 0px;
 	background: #f00;
 	overflow:visible;
@@ -467,21 +467,16 @@ form.sign-up input[name|=title]	{
 
 }
 
-.admiral article ul,.admiral article ul li {
 
-		padding: 0 ;
-		margin: 0 ;
-		text-align: center;
-		
-		   
-}
 
 .admiral article ul  {
 	padding-right: 10px ;
 	list-style-position: inside;
-	list-style: none;
 	
 	
+    
+
+
 	
 
 }
@@ -652,16 +647,7 @@ form.sign-up input[name|=title]	{
 }
 
 
-.sio article:hover{
 
-	background:#000;
-	color: #fff 
-}
-
-.sio article:hover  > p{
-
-	color: #fff 
-}
 
 
 
@@ -849,7 +835,7 @@ form.sign-up input[name|=title]	{
 	width: 100%;
 	background:rgba(2,2,2,.2);
 	z-index: 1;
-   flex-direction: column;
+   flex-direction: row;
    justify-content:  center ;
    text-align: center;
    border-top: 15px solid rgba(2,2,2,.1);
@@ -985,4 +971,30 @@ form.sign-up input[name|=title]	{
 
 .sign-up select , .sign-up input {
 	padding: 2px !important
+}
+
+
+
+/****************/
+
+
+h1 , h2 , h3 {
+
+	font-weight: 1000;
+}
+
+
+h4 {
+
+	font-size: 1.36em;
+}
+
+h2 {
+
+	font-size: 1.6em;
+}
+
+h3 {
+
+	font-size: 1.27em;
 }

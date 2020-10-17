@@ -1,0 +1,41 @@
+
+@media only screen and (max-width: 570px){
+
+
+    img {
+
+        width: 95%;
+    }
+}
+
+
+@media only screen and (max-width: 270px){
+
+
+    .Maintenance-Machine{ 
+
+        font-size: 15px;
+        padding: 5px;
+    }   
+
+.copy{
+
+    font-size: 14px;
+    padding: 5px 0px 2px 0; 
+    
+}
+
+.main-footer .fab,.main-footer .far{
+
+    font-size: 20px;
+    font-weight: 900;
+     margin-right: 15px;
+
+  }
+}
+
+
+
+
+  
+/* ****************************************************************** */
