@@ -9,6 +9,7 @@ body, * {
 
 
 
+
 .image-container{
 
    display: flex;
@@ -32,12 +33,22 @@ body, * {
     line-height: 1.5rem;
     border-bottom:1px solid #ccc;
     background: #000;
+    color: #fff;
+}
+
+.Maintenance-Machine h3 ,
+.Maintenance-Machine h4 ,
+.Maintenance-Machine h2
+
+{
+
     color: yellow;
 }
 
 details summary{
 
     display: inline-block;
+    color: yellow;
 }
 
 
