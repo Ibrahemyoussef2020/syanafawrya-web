@@ -547,13 +547,11 @@ form.sign-up input[name|=title]	{
 .main-footer{
     display: flex;
     justify-content: center;
-	align-content: flex-end;
 	align-items: flex-end;
     min-height: 30px;
     padding: 5px;
-	background: #333;
-	opacity: 1
-	
+	padding-left: 2rem;
+	background: #333;	
 }
 .main-footer .fab,.main-footer .far{
 	font-size: 20px;
@@ -571,5 +569,6 @@ form.sign-up input[name|=title]	{
 	min-height: 30px;
 	margin-bottom: 0px !important;
 	background: #777;
-	text-align: center;	
+	text-align: center;
+	padding-top: 5px;	
 }

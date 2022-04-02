@@ -8,18 +8,29 @@
     }
     .over-flow{
     flex-direction: column;
+    }
+    h2 , h3 , h4 {
+    font-size: 1.4rem;
+   }
+   p,span,li{
+    font-size: 1.1rem;
+    font-weight: 400 !important;
   }
- }
- @media only screen and (max-width: 420px){
+}
+ @media only screen and (max-width: 460px){
+
+  .sticky-container{
+    position: initial;
+  }
+  .slide{
+    margin-top: 0;
+  }
   .sticky-container input , .sticky-container label{
     display: none;
   }
   label.label-checkbox{
     display: block;
   }
-   .slide{
-     margin-top: 210px;
-   }
    .images-articles img{
      margin: 0 auto;
    }
@@ -30,13 +41,8 @@
    .fixed-icon .fas{
      font-size: 14px;
    }
-
-   h2 , h3 , h4 {
-      font-size: 1.4rem;
-   }
-   p,span,li{
-     font-size: 1.1rem;
-     font-weight: 400 !important;
+   .copy{
+     font-size: 14px;
    }
  }
  @media only screen and (max-width: 365px){
@@ -52,12 +58,6 @@
   }
 }
  @media only screen and (max-width : 250px) {
-  .sticky-container{
-    position: initial;
-  }
-  .slide{
-    margin-top: 0px;
-  }
   .fixed-icon-trans{
     bottom: 10%;
     right: 0px !important;
