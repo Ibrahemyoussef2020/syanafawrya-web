@@ -6,7 +6,7 @@
 body, .under-body{
 	overflow-x: hidden;
 }
-h1 , h2 , h3{font-weight: 1000;}
+h1 , h2 , h3{font-weight: 900;}
 
 h4{font-size: 1.36rem;}
 
@@ -211,7 +211,7 @@ input.check-window{
 } 
 /*slide*/
 .slide{
-	margin-top: 120px;
+	margin-top: 160px;
 	width: 100%;
 }
 /************************************************/     
